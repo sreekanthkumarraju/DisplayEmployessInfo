@@ -1,0 +1,59 @@
+table{
+       margin-top:50px;
+       margin-left: auto;
+       margin-right: auto;
+        border-collapse: collapse;
+       
+
+}
+
+tr,td{
+    border:3px solid rgba(146, 8, 142, 0.856);
+    padding:10px;
+    font-size: 20px;
+
+}
+
+caption{
+    font-size:30px;
+    margin-bottom:10px;
+    color:blueviolet;
+}
+
+input{
+    padding-left: 30px;
+    font-size: 20px;
+  
+    width:80%;
+    height:30px;
+    background-color:whitesmoke;
+ 
+    
+}
+
+.input{
+    margin-top: 50px;
+    display:flex;
+    justify-content: center;
+
+}
+button{
+  padding:4px;
+  font-size: 16px;
+}
+
+
+.show{
+
+  margin-top: 30px;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  
+}
+
+#allEmployee,#male,#female{
+  
+    background-color: rgb(1, 151, 26);
+    padding:10px;
+}
